@@ -18,7 +18,7 @@
 * Development and support software for electronic product accounting system ('C')
 ## EDUCATION
 * P.O.Sukhoi State Technical University of Gomel (2013 - 2017)
-* RSSchool stage 1 (Just now)
+* RSSchool stage 1 (In progress)
 ## LANGUAGES
 * Russian - native
 * English - A2+
