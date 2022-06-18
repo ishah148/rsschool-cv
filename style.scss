@@ -16,7 +16,7 @@ h4,
 h5 {
     margin: 0;
 }
-a{
+a {
     text-decoration: none;
 }
 * {
@@ -97,7 +97,8 @@ main {
         flex: 1 3 350px;
         display: flex;
         flex-direction: column;
-        padding: 10px;
+        padding: 20px;
+
         // background: rebeccapurple;
         background: $light;
         transition: all 0.5s;
@@ -111,7 +112,6 @@ main {
 
         .photo-wrapper {
             width: 100%;
-
             img {
                 width: 100%;
                 opacity: 0.9;
@@ -158,19 +158,23 @@ main {
         flex: 5 1 350px;
         // height: 1000px;
         background: $color3;
+        ul{
+            list-style-image: url(assets/png/check.png);
+        }
         .projects-wrapper {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             gap: 25px;
             .project__container {
-                width: 80%;
+                width: 40%;
                 aspect-ratio: 3/2;
                 // height: 233px;
                 background: grey;
                 overflow: hidden;
                 position: relative;
                 transition: 0.3s ease;
+                border-radius: 10px;
                 cursor: pointer;
                 &.push {
                     cursor: auto;
@@ -183,6 +187,11 @@ main {
                         display: flex;
                     }
                 }
+                &:hover {
+                    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+                    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+                    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+                }
                 @media (max-width: $breakpoint-tablet) {
                     width: 550px;
                     height: calc(550px / 1.5);
@@ -191,12 +200,7 @@ main {
                 // &.game {
                 //     background: left 0% / 100% 100% no-repeat url(assets/png/game.png);
                 // }
-                // &.movie {
-                //     background: left 0% / 100% 100% no-repeat url(assets/png/movie-app.png);
-                // }
-                // &.portfolio {
-                //     background: left 0% / 100% 100% no-repeat url(assets/png/portfolio.png);
-                // }
+
 
                 .project__image {
                     width: 100%;
@@ -222,7 +226,7 @@ main {
                         text-align: center;
                     }
                     h4 {
-                        margin-bottom: 30px;
+                        margin-bottom: 15px;
                     }
                     .link-wrapper {
                         display: flex;
@@ -230,7 +234,7 @@ main {
                         align-items: center;
                         // position: absolute;
                         width: 120px;
-                        height: 70px;
+                        height: 40px;
                         // margin: auto;
                         // top: 0;
                         // left: 0;
@@ -241,11 +245,11 @@ main {
                         }
 
                         img {
-                            width: 50px;
-                            height: 50px;
+                            width: 30px;
+                            height: 30px;
                         }
                         a {
-                            font-size: 35px;
+                            font-size: 30px;
                             font-style: italic;
                             text-decoration: none;
                             opacity: 0.85;
