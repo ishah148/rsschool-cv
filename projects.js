@@ -31,7 +31,7 @@ export const projectsData = [
         name:'Movie-app',
         linkGit:'https://github.com/ishah148/gitTest/tree/gh-pages/movie',
         linkDeploy:'https://ishah148.github.io/gitTest/movie',
-        description:'Educational project from RSS stage 0',
+        description:'Educational project from RSS stage 0.Nowadays pictures work only with VPN :(',
         imageName:'movie-app',
     },
     {
