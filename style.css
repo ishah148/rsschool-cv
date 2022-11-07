@@ -30,7 +30,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background: #66bb6a;
+  background: #a5d6a7;
 }
 header .name-wrapper {
   display: flex;
@@ -81,7 +81,7 @@ main aside {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  background: #98ee99;
+  background: #c8e6c9;
   transition: all 0.5s;
 }
 @media (max-width: 968px) {
